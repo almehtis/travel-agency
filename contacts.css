@@ -1,11 +1,10 @@
 html {
   box-sizing: border-box;
   font-family: 'Source Code Pro', monospace;
-  color: white;
 }
 
 body {
-  background: url(images/pixabay4.jpg) no-repeat center center fixed;
+  background: url(images/LEONARDO.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -19,15 +18,18 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 1px 1px black;
 }
 
-h1 {
-  font-weight: normal;
-  font-size: 6.5em;
-  ;
-  margin-block-start: 10%;
-  text-align: center;
+p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 2.0em;
+  margin-inline-start: 1%;
+  margin-inline-end: 15%;
+  margin-block-start: 13%;
+  color: white;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -52,17 +54,4 @@ footer {
 
 a:hover {
   background-size: 100% 1px;
-}
-
-.link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 1px;
-  transition: width .2s;
-}
-
-.link:hover::after {
-  width: 100%;
-  transition: width .2s;
 }
